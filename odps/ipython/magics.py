@@ -157,7 +157,6 @@ else:
 
             sql = None
             hints = dict()
-            print('content={0}'.format(content))
             splits = content.split(';')
             for s in splits:
                 stripped = s.strip()
